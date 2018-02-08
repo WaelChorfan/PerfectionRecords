@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<title>Soumettre piéce</title>
+	<meta charset="utf-8">
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+	
+</head>
+<body>
+<div id="page">
+	<div id="header">
+		<ul class="section" >
+			<li ><a class="home" href="../index.html">&nbsp;</a></li>
+			<li ><a class="email" href="mailto:chorfanwael@gmail.com">&nbsp;</a></li>
+		</ul>
+		<ul class="navigation">
+			   <li><a href="../index.html">PerfectionRecords</a></li>
+			<li ><a href="pieces.php">Piéces</a></li>
+		
+			<li ><a href="artistes.php">Artistes</a></li>
+				<li ><a class="active" href="soumettre_piéce.html">Soumettre piéce</a></li>
+			<li><a href="admin.php">Admin</a></li>
+		</ul>
+	</div>
+	<div id="body"> 
+		<div class="content" style="border-radius: 25px;
+background-color: #afb3b6;
+		 opacity: 0.9; "
+		>
+			<h3>Soumettre votre démo</h3>
+			<form action="audioUploadAction.php" method="post" enctype="multipart/form-data">
+				<table class="section">
+					<tr>
+						<td>
+							<label for="NomArtiste"> <span>NomArtiste</span>
+								<input type="text" id="NomArtiste" name="NomArtiste">
+							</label>
+						</td>
+						<td>
+							<label for="NomPiece"> <span> Lien Privé </span>
+								<input type="text" id="NomPiece" name="NomPiece">
+							</label>
+						</td>
+
+					
+					</tr>
+					<tr>
+						<td><label for="Email"> <span>Email</span>
+								<input type="text" id="Email" name="Email">
+							</label></td>
+
+						<td><label for="prodType"> <span>TitrePièce</span>
+							<input type="text" id="prodType" name="prodType">
+						</label></td>
+
+
+					</tr>
+					<tr>
+						<!--<td>
+							<label for="demoAudio"> <span>Upload mp3/wav</span>
+								<input type="file" name="demoAudio" id="demoAudio" >
+							</label>
+						</td>
+						-->
+						<td class="even"><button class="btn btn-info" type="submit" id="submit"
+onclick=" return confirm('Merci de soumettre votre démo,Si votre piéce a été acceptée ,on va vous envoyer un email')">&nbsp;</button></td>
+					</tr>
+				</table>
+			</form>
+			<p>Veullier saisir un lien privé contenant une piéce téléchargeable</p>
+
+		</div>
+	</div>
+	<div id="footer" style=" border-radius: 25px;
+background-color: #FFFFFF;
+		 opacity: 0.6">
+		<ul>
+			<li id="section">
+
+<p><h3 align="center">Contact Us</h3> </p>
+			</li>
+			<li class="connect">
+				<h2>Contacts</h2>
+				<ul>
+					<li><a class="facebook" href="https://www.facebook.com/wael.chorfan" target="_blank">Facebook</a></li>
+
+
+					<li><a class="flicker" href="https://soundcloud.com/wael-chorfan" target="_blank">SoundCloud</a></li>
+
+				</ul>
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+</body>
+</html>
